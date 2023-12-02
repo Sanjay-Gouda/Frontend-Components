@@ -6,11 +6,6 @@ function Carousel() {
   const [activeImage, setActiveImage] = useState(0);
 
   const handleNext = () => {
-    // if (CarouselImages.length - 1) {
-    //   setActiveImage(0);
-    // } else {
-    // }
-
     setActiveImage((activeImage + 1) % CarouselImages.length);
   };
   const handlePrev = () => {
@@ -37,7 +32,13 @@ function Carousel() {
         <div>
           <button onClick={handlePrev}>Prev</button>
         </div>
-        <div>
+        <div
+          className="image-wrappwer"
+          // style={{
+          //   // transform: `translateX:(-${activeImage * 100}%)`,
+          //   transform: `translate(-${activeImage * 100}%)`,
+          // }}
+        >
           {CarouselImages.map((item, ind) => (
             <>
               <img
