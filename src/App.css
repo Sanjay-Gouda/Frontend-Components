@@ -5,6 +5,14 @@
   text-align: center;
 }
 
+body {
+	align-items: center;
+	background: #E3E3E3;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+}
+
 
 p {
   margin: 0;
@@ -22,7 +30,7 @@ p {
 }
 .accordian-wrapper {
   /* width: 100%; */
-  color: #fff;
+  color: #000;
   padding: 10px;
   border: 2px solid #fff;
 }
@@ -47,6 +55,7 @@ p {
   text-align: start;
 }
 .heading {
+  
   margin: 0;
   font-size: 16px;
   font-weight: bold;
