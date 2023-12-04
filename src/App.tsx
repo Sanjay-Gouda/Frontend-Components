@@ -1,6 +1,7 @@
 import "./App.css";
 
 import { InfiniteSlider } from "./components/InfiniteCarousal";
+import { AudioWaveAniamtion } from "./components/Wave";
 
 function App() {
   // const [activeId, setActiveId] = useState<number>(0);
@@ -14,7 +15,7 @@ function App() {
 
   return (
     <>
-      <InfiniteSlider />
+      <AudioWaveAniamtion />
     </>
   );
 }
